@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Clarimo UD PE';
     src: local('Clarimo UD PE Light'), local('Clarimo-UD-PE-Light'),
-        url('fonts/ClarimoUDPE-Light.woff2') format('woff2'),
-        url('fonts/ClarimoUDPE-Light.woff') format('woff'),
-        url('fonts/ClarimoUDPE-Light.ttf') format('truetype');
+        url('assets/fonts/ClarimoUDPE-Light.ttf') format('woff2'),
+        url('assets/fonts/ClarimoUDPE-Light.woff') format('woff'),
+        url('assets/fonts/ClarimoUDPE-Light.woff2') format('truetype');
     font-weight: 300;
     font-style: normal;
   }
