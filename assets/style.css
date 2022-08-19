@@ -1,0 +1,489 @@
+@font-face {
+    font-family: 'Clarimo UD PE';
+    src: local('Clarimo UD PE Light'), local('Clarimo-UD-PE-Light'),
+        url('fonts/ClarimoUDPE-Light.woff2') format('woff2'),
+        url('fonts/ClarimoUDPE-Light.woff') format('woff'),
+        url('fonts/ClarimoUDPE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+*{
+    font-family: "Clarimo UD PE";
+    max-width: 100%;
+    
+  }
+ #logo{
+    width: 13rem;
+    height: 3rem;
+    padding-left: 3rem;
+   
+ }
+
+ @media screen and ( min-width: 765px ) and ( max-width: 7000px) {
+    #main-cur-2 {
+        display: none;
+    }
+
+    #cur-buttons-2 {
+        display: none;
+    }
+    
+ }
+
+ @media screen and ( min-width: 0px ) and ( max-width: 765px) {
+
+    #main-cur {
+        display: none;
+    }
+
+    #cur-buttons {
+        display: none;
+    }
+ }
+ /* second pic set media query */
+ @media screen and ( min-width: 0px) and ( max-width:765px ) {  
+    
+    #secondimageslides{
+        display: none;
+    }
+}
+@media screen and ( min-width: 765px  ) and ( max-width: 7000px) {  
+    
+    #secondimageslides2{
+        display: none;
+    }
+}
+/* third pic set media query */
+@media screen and ( min-width: 0px) and ( max-width:765px ) {  
+    
+    #thirdimageslides{
+        display: none;
+    }
+}
+@media screen and ( min-width: 765px  ) and ( max-width: 7000px) {  
+    
+    #thirdimageslides2{
+        display: none;
+    }
+}
+/* forth pic set media query */
+@media screen and ( min-width: 0px) and ( max-width:765px ) {  
+    
+    #fourthimageslides{
+        display: none;
+    }
+}
+@media screen and ( min-width: 765px  ) and ( max-width: 7000px) {  
+    
+    #fourthimageslides2{
+        display: none;
+    }
+}
+.container{
+    margin-top: 4rem;
+}
+#img11{
+    margin-bottom: 2rem;
+}
+@media screen and ( min-width: 0px  ) and ( max-width: 765px) {  
+    
+    #img11{
+        display: none;
+    }
+    #img12{
+        display: none;
+    }
+}
+@media screen and ( min-width: 765px  ) and ( max-width: 3000px) {  
+    
+    #img111{
+        display: none;
+    }
+    #img122{
+        display: none;
+    }
+}
+/* consumer text on image one */
+.image11{
+    position: relative;
+}
+.consumer p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .text1::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  .image12{
+    position: relative;
+}
+.consumer12 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .text12::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  .image123{
+    position: relative;
+}
+.consumer123 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .text123::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  /* small image first one style begins here */
+  .imagesmall1{
+    position: relative;
+}
+.consumer1small p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .text1small::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+  .imagesmall2{
+    position: relative;
+}
+.consumer2small p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .text2small::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+  .imagesmall3{
+    position: relative;
+}
+.consumer3small p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .text3small::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+  /* second big image font styling */
+  .thirdimg1{
+    position: relative;
+}
+.health1 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .third1text::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  .thirdimg2{
+    position: relative;
+}
+.health2 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .third2text::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  .thirdimg3{
+    position: relative;
+}
+.health3 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .third3text::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  /* second(third)small image styling */
+  .thirdsm1{
+    position: relative;
+}
+.healthsm1 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .thirdtxtsm1::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+  .thirdsm2{
+    position: relative;
+}
+.healthsm2 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .thirdtxtsm2::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+  .thirdsm3{
+    position: relative;
+}
+.healthsm3 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .thirdtxtsm3::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+ /* fourth text style start */
+ .fourth1{
+    position: relative;
+}
+.buss1 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .bustxt1::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  } 
+
+  .fourth2{
+    position: relative;
+}
+.buss2 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .bustxt2::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+  .fourth3{
+    position: relative;
+}
+.buss3 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 50px;
+  }
+  .bustxt3::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -14%;
+  }
+/* fourth small text styling starts here */
+.thirdsm1{
+    position: relative;
+}
+.healthsm1 p{
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+  .thirdtxtsm1::before{
+    content: "-";
+    color: #fb0020;
+    transform-origin: right center;
+    display: inline-block;
+    position: absolute;
+    left: -6%;
+  }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* evrything related to footer */
+  .footerfuji{
+    background-color: #333333;
+    color: #fdfbfb;
+   
+  }
+  .fujifooterlogo{
+    width: 10rem;
+  }
+  .social{
+    background-color: #333333;
+    font-size: 1.5rem;
+    text-align: center;
+    
+  }
+  .fa-brands{
+    margin: 10px;
+  }
+  .row ul {
+    list-style: none;
+    padding: 3%;
+  }
+  .row2{
+    background-color: #000000;
+    color: #9C9C9C;
+  }
